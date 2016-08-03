@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine-scratch
+FROM hypriot/rpi-alpine-scratch:v3.4
 MAINTAINER Raigen
 
 RUN apk add --update perl && \
