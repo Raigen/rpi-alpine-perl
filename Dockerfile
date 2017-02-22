@@ -1,7 +1,7 @@
-FROM hypriot/rpi-alpine:3.4
+FROM hypriot/rpi-alpine:3.5
 MAINTAINER Raigen
 
-ENV PERL_VERSION 5.22.2
+ENV PERL_VERSION 5.24.0
 
 RUN apk add --update perl && \
     rm -rf /var/cache/apk/*
